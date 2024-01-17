@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>donate</title>
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="_container">
+                <div class="nav__logo">
+                    <img src="https://svclookup.com.au/Uploads/X/201906/logo-c15cd84a-bab8-41cd-9ae5-07607c01ddb8.png">
+                </div>
+                <div class="nav__list">
+                    <a class="nav__list-item" href="https://vk.com/">Группа ВК</a>
+                    <a class="nav__list-item" modal-open="rules">Правила</a>
+                </div>
+                <div class="nav__control">
+                    <div class="nav__control-item nav__control-online">
+                        <img src="./assets/images/icons/activity.svg" class="nav__control-online__icon">
+                        <div class="nav__control-online__info">
+                            <p class="nav__control-online__hover">Нажмите, чтобы скопировать айпи</p>
+                            <p class="nav__control-online__ip">mc.testmc.ru</p>
+                            <p class="nav__control-online__status">Онлайн: <span id="server0" class="nav__control-online__checked">10</span></p>
+                        </div>
+                    </div>
+                    <div class="nav__control-item nav__control-theme" theme>
+                        <img src="./assets/images/icons/moon.svg" class="nav__control-theme__icon">
+                    </div>
+                    <div class="nav__control-item nav__control-burger">
+                        <div class="nav__control-burger__line nav__control-burger__line1"></div>
+                        <div class="nav__control-burger__line nav__control-burger__line2"></div>
+                        <div class="nav__control-burger__line nav__control-burger__line3"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="news">
+            <div class="_container">
+                <h3 class="news__title textstyle__title">О нас</h3>
+                <div class="news__content">
+                   <div class="news__info">
+                       <span class="textstyle__title">SuperPuperMine</span> <br>
+                       Мы первые, которые сделали уникальный гриферский сервер у которых ни у кого нету!<br>
+                       Что ты завис? Скопируй айпи и зайди уже на сервер!
+                   </div>
+                   <div class="news__image">
+                       <img src="https://i.gifer.com/47tv.gif">
+                   </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="donate">
+            <div class="_container">
+                <h3 class="donate__title textstyle__title">Покупка донат услуг</h3>
+                <div class="donate__box">
+                    <div class="donate__sidebar">
+                        <div class="donate__sidebar-header">
+                            <h6 class="donate__sidebar-title textstyle__title">Категория</h6>
+
+                            <div class="donate__sidebar-carts opened">
+                                <button class="donate__sidebar-item active" category-control="survival">
+                                    Выживание
+                                </button>
+                                <button class="donate__sidebar-item"" category-control="grief">
+                                    Гриферский
+                                </button>
+                                <button class="donate__sidebar-item"" category-control="cases">
+                                    Кейсы
+                                </button>
+                                <button class="donate__sidebar-item"" category-control="other">
+                                    Остальное
+                                </button>
+                            </div>
+                        </div>
+
+                        <p class="donate__sidebar-footer">
+                            Перед покупкой, прочитайте <a href="#" class="textstyle__link">условия оферты</a>.
+                        </p>
+                    </div>
+
+                    <div class="donate__products">
+                        <div class="donate__products-title textstyle__title">Выберите товар</div>
+
+                        <div class="donate__products-carts active" category-products="survival">
+                            <div class="donate__products-item" product-id="kolt" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/kolt.png">
+                                </div>
+                                <p class="donate__products-name">Кольт</p>
+                                <p class="donate__products-price">99Р</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Какое то описание продукта Кольт</p>
+                            </div>
+                            <div class="donate__products-item" product-id="elprimo" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/el_primo.png">
+                                </div>
+                                <p class="donate__products-name">Эль Примо</p>
+                                <p class="donate__products-price">149Р</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Какое то описание продукта Эль Примо</p>
+                            </div>
+                            <div class="donate__products-item" product-id="kapitangavs" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/gavs.png">
+                                </div>
+                                <p class="donate__products-name">Капитан Гавс</p>
+                                <p class="donate__products-price">249Р</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Какое то описание продукта Капитана Гавса</p>
+                            </div>
+                            <div class="donate__products-item" product-id="leon" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/leon.png">
+                                </div>
+                                <p class="donate__products-name">Леон</p>
+                                <p class="donate__products-price">399Р</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Какое то описание продукта Леончика</p>
+                            </div>
+                        </div>
+                        <div class="donate__products-carts" category-products="grief">
+                            <div class="donate__products-item" product-id="kolt" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/kolt.png">
+                                </div>
+                                <p class="donate__products-name">Кольт</p>
+                                <p class="donate__products-price">99Р</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Какое то описание продукта Кольт (GRIEF)</p>
+                            </div>
+                            <div class="donate__products-item" product-id="elprimo" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/el_primo.png">
+                                </div>
+                                <p class="donate__products-name">Эль Примо</p>
+                                <p class="donate__products-price">149Р</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Какое то описание продукта Эль Примо (GRIEF)</p>
+                            </div>
+                            <div class="donate__products-item" product-id="kapitangavs" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/gavs.png">
+                                </div>
+                                <p class="donate__products-name">Капитан Гавс</p>
+                                <p class="donate__products-price">249Р</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Какое то описание продукта Капитана Гавса (GRIEF)</p>
+                            </div>
+                            <div class="donate__products-item" product-id="leon" block-amount>
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/leon.png">
+                                </div>
+                                <p class="donate__products-name">Леон</p>
+                                <p class="donate__products-price">399Р</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Какое то описание продукта Леончика (GRIEF)</p>
+                            </div>
+                        </div>
+                        <div class="donate__products-carts" category-products="cases">
+                            <div class="donate__products-item" product-id="kolt">
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/case.png">
+                                </div>
+                                <p class="donate__products-name">Кейс с донатами</p>
+                                <p class="donate__products-price">99Р</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">В кейсе лежит много донатов, не раскучишсья открывая их!</p>
+                            </div>
+                            <div class="donate__products-item" product-id="elprimo">
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/case2.png">
+                                </div>
+                                <p class="donate__products-name">Кейс с кастомизациями</p>
+                                <p class="donate__products-price">99Р</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">В кейсе лежит много кастомизации, не раскучишсья открывая их!</p>
+                            </div>
+                            <div class="donate__products-item" product-id="kapitangavs">
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/case3.png">
+                                </div>
+                                <p class="donate__products-name">Кейс с монетами</p>
+                                <p class="donate__products-price">49Р</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">В кейсе лежит много монет, не раскучишсья открывая их!</p>
+                            </div>
+                        </div>
+                        <div class="donate__products-carts" category-products="other">
+                            <div class="donate__products-item" product-id="kolt">
+                                <div class="donate__products-image">
+                                    <img src="./assets/images/products/unlock.png">
+                                </div>
+                                <p class="donate__products-name">Разбан</p>
+                                <p class="donate__products-price">99Р</p>
+                                <div class="donate__products-buttons">
+                                    <button modal-product="description" class="donate__products-button donate__products-info">Информация</button>
+                                    <button modal-product="buy" class="donate__products-button donate__products-buy">Купить</button>
+                                </div>
+                                <p class="donate__products-description">Разбан аккаунта + ip!!!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="last">
+            <div class="_container">
+                <h3 class="last__title textstyle__title">Игроки покупают</h3>
+
+                <div class="last__box">
+                    <div class="last__box-item">
+                        
+                    </div>
+                    <div class="last__box-item">
+                        
+                    </div>
+                    <div class="last__box-item">
+                        
+                    </div>
+                    <div class="last__box-item">
+                        
+                    </div>
+                    <div class="last__box-item">
+                        
+                    </div>
+                    <div class="last__box-item">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__nav">
+                <div class="_container">
+                    <div class="footer__logo">
+                        <img src="https://svclookup.com.au/Uploads/X/201906/logo-c15cd84a-bab8-41cd-9ae5-07607c01ddb8.png">
+                    </div>
+                    <div class="footer__list">
+                        <div class="nav__list-item">Группа ВК</div>
+                        <div class="nav__list-item">Правила</div>
+                    </div>
+                    <div class="footer__up">
+                        <img src="./assets/images/icons/arrow-up.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="_container">
+                    <p class="footer__copyright-text">
+                        <span class="color-red">no</span>Copyright 2022 (Все права <span class="color-red">не</span> защищены)<br>
+                        Сервер никак не относится к Mojang, AB.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div modal-box class="modals">
+        <div modal-item="description" class="_container modals__item">
+            <p class="modals__title">Информация о товаре</p>
+            <div class="modals__text">Empty...</div>
+            <div modal-close class="modals__close">
+                <div class="modals__close-line"></div>
+                <div class="modals__close-line"></div>
+            </div>
+        </div>
+
+        <div modal-item="buy" class="_container modals__item">
+            <div class="modals__row">
+                <div class="modals__cart">
+                    <div class="modals__product">
+                        <div class="modals__product-image">
+                            <img src="./assets/images/products/kolt.png">
+                        </div>
+
+                        <div class="modals__product-info">
+                            <p class="modals__product-name">
+                                Кольт
+                            </p>
+
+                            <p class="modals__product-price">
+                                99P
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="modals__text">
+                        Нажимая на кнопку "Приобрести", Вы соглашаетесь с нашими <a href="#" class="textstyle__link">условиями оферта</a>.
+                    </div>
+                </div>
+                <div class="modals__cart modals__cart-reverse">
+                    <div class="modals__title">Покупка товара</div>
+
+                    <form class="modals__form" action="index.html">
+                        <input class="modals__input" type="text" id="nickname" name="nickname" placeholder="Никнейм">
+                        <div class="modals__amount">
+                            <p class="modals__amount-text">Количество: </p>
+                            <div class="modals__amount-control">
+                                <div class="modals__amount-minus">-</div>
+
+                                <div class="modals__amount-result">1</div>
+
+                                <div class="modals__amount-plus">+</div>
+                            </div>
+                        </div>
+                        <div class="modals__payment">
+                            <div class="modals__payment-control">Способ оплаты: <span class="modals__payment-selected">QIWI</span></div>
+                            
+                            <div class="modals__payment-list">
+                                <div class="modals__payment-item">QIWI</div>
+                                <div class="modals__payment-item">Карта</div>
+                                <div class="modals__payment-item">Другое</div>
+                            </div>
+                        </div>
+
+                        <button class="modals__button">Приобрести</button>
+                    </form>
+                </div>
+            </div>
+
+            <div modal-close class="modals__close">
+                <div class="modals__close-line"></div>    
+                <div class="modals__close-line"></div>
+            </div>
+        </div>
+
+        <div modal-item="rules" class="_container modals__item">
+            <div class="modals__title">Правила сервера</div>
+
+            <p class="modals__text">Какие то правила сервера</p>
+            <div modal-close class="modals__close">
+                <div class="modals__close-line"></div>
+                <div class="modals__close-line"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/scripts/main.js"></script>
+</body>
+</html>
